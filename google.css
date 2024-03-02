@@ -174,7 +174,7 @@ input {
         margin-left: 15px;
     }
 }
-@media (min-width:0px) and (max-width:560px) {
+@media (min-width:350px) and (max-width:560px) {
     nav div:first-of-type a {
         font-size: 12px;
     }
