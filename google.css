@@ -127,7 +127,54 @@ input {
     padding: 5px 15px;
     margin: -2px 0px 0 12px;
 }
-@media (min-width:320px) and (max-width:560px) {
+@media (min-width:320px) and (max-width:350px){
+    nav div:first-of-type a {
+        font-size: 12px;
+    }
+
+    .banner img {
+        width: 50%;
+        padding-top: 75px;
+    }
+
+    input {
+        width: 50%;
+        padding-inline-end: 80px;
+        height: 35px;
+    }
+
+    .section-1 i {
+        margin-right: -30px;
+    }
+
+    .section-1 img:first-of-type,.section-1 img:last-of-type {
+        margin-left: -16%;
+        margin-right: -18px;
+    }
+
+    .section-2 {
+        width: 90%;
+        padding-bottom: 3rem;
+    }
+
+    .section-2 img {
+        width: 25px;
+    }
+
+    .row-1 {
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        gap: 0px;
+    }
+    .col:last-of-type {
+        grid-column-start: 2;
+        grid-template-columns: 3;
+    }
+    .p{
+        margin-left: 15px;
+    }
+}
+@media (min-width:0px) and (max-width:560px) {
     nav div:first-of-type a {
         font-size: 12px;
     }
